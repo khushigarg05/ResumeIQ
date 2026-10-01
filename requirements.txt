@@ -1,8 +1,8 @@
-
-%%writefile "C:\ML PROJECT\Resume_Screening\requirements.txt"
 streamlit
 pandas
 numpy
 scikit-learn==1.9.1
 joblib
 pypdf
+matplotlib
+seaborn
