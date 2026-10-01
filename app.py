@@ -585,6 +585,8 @@ def find_certifications(text):
 def parse_resume(text):
     """Return a structured summary; detected fields need review."""
     experience = find_experience(text)
+    if experience is None:
+        experience = 0
     projects = find_projects(text)
     skills = find_skills(text)
 
